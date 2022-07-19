@@ -1,7 +1,6 @@
 library(shiny)
 library(dplyr)
 library(echarts4r)
-library(tidyverse)
 library(echarts4r.maps)
 library(shinyWidgets)
 
