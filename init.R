@@ -1,4 +1,4 @@
-my_packages = c("dplyr", "echarts4r","shinyWidgets")
+my_packages = c("dplyr", "echarts4r","shinyWidgets", "tidyverse")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
