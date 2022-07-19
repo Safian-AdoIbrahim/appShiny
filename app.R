@@ -9,8 +9,6 @@ er <- read.csv("earlyrecovery.csv")
 prettyNum(er$total_beneficiaries, big.mark = ",", scientific = FALSE)
 head(er)
 
-
-
 ui <- div( 
   tags$head(src = "https://cdn.tailwindcss.com",
             
@@ -22,10 +20,7 @@ ui <- div(
               
             )
             
-            
-            
             ),
-  
   
        tags$head(    tags$link(
               
@@ -36,10 +31,6 @@ ui <- div(
             )
        ),
             
-  
-
-  
-
             HTML('
         <div class="h-full w-full absolute">
             <!-- Navigation starts -->
@@ -132,23 +123,10 @@ ui <- div(
           
       ), 
       
-      
-      
-      
-      
-      
-      
-      
-      
   ),
   
   
-  
-  
   #<!---End of Filters--->
-  
-  
-  
   
   #<!--KPI Cards -->
  
