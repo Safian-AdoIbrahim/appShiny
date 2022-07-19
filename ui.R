@@ -1,7 +1,6 @@
 library(shiny)
 library(dplyr)
 library(echarts4r)
-library(echarts4r.maps)
 library(shinyWidgets)
 
 #Read csv file and assign it to an object
