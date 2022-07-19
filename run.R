@@ -2,7 +2,6 @@ library(shiny)
 library(dplyr)
 library(echarts4r)
 library(shinyWidgets)
-library(tidyverse)
 
 port <- Sys.getenv('PORT')
 
